@@ -5,9 +5,9 @@
 #
 
 # Inherit from tama-common
--include device/sony/tama-common/BoardConfigCommon.mk
+-include device/sony/tama-common-kddi/BoardConfigCommon.mk
 
-DEVICE_PATH := device/sony/akari
+DEVICE_PATH := device/sony/akari-kddi
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := H8266,H8296,H8216,akari,akari_dual
@@ -19,7 +19,7 @@ TARGET_HW_DISK_ENCRYPTION := true
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
-TARGET_KERNEL_CONFIG := tama_akari_defconfig
+TARGET_KERNEL_CONFIG := tama_akari_kddi_defconfig
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml

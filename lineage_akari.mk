@@ -5,7 +5,7 @@
 #
 
 # Inherit from akari device
-$(call inherit-product, device/sony/akari/device.mk)
+$(call inherit-product, device/sony/akari-kddi/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
