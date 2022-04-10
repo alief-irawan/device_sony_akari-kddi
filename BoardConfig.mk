@@ -7,7 +7,7 @@
 # Inherit from tama-common
 -include device/sony/tama-common-kddi/BoardConfigCommon.mk
 
-DEVICE_PATH := device/sony/akari-kddi
+DEVICE_PATH := device/sony/akari_kddi
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := H8266,H8296,H8216,akari,akari_dual
